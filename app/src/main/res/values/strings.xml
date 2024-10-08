@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cooking Companion</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="title_home">Home</string>
+    <string name="title_recipes">Recipes</string> <!-- Updated for consistency -->
+    <string name="title_timer">Timer</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="rating_bar">Your Rating</string>
+
+
+    <!-- Recipe names -->
+    <string name="spaghetti">Spaghetti</string>
+    <string name="tacos">Tacos</string>
+    <string name="pancakes">Pancakes</string>
+    <string name="salad">Salad</string>
+    <string name="pizza">Pizza</string>
+</resources>

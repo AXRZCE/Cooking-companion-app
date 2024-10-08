@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_recipes"
+        android:icon="@drawable/recipe"
+        android:title="Recipes" />
+    <item
+        android:id="@+id/navigation_timer"
+        android:icon="@drawable/timer"
+        android:title="Timer" />
+    <item
+        android:id="@+id/navigation_feedback"
+        android:icon="@drawable/feedback"
+        android:title="Feedback" />
+</menu>

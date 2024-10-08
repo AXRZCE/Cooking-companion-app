@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Recipe Image -->
+    <!-- Added content description for accessibility -->
+
+    <!-- Recipe Title -->
+    <ImageView
+        android:id="@+id/recipe_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/recipe_image"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/recipe_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="?attr/colorPrimary" /> <!-- Set title color based on theme -->
+
+    <!-- Ingredients Section -->
+    <TextView
+        android:id="@+id/recipe_ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="?attr/colorAccent" /> <!-- Set ingredients color based on theme -->
+
+    <!-- Instructions Section -->
+    <TextView
+        android:id="@+id/recipe_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="?attr/colorAccent" /> <!-- Set instructions color based on theme -->
+
+</LinearLayout>
